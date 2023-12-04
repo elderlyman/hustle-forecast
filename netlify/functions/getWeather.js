@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const openWeatherApiKey = REACT_APP_OPENWEATHER_API_KEY || 'default_open_weather_api_key';
+const openWeatherApiKey = process.env.REACT_APP_OPENWEATHER_API_KEY || 'default_open_weather_api_key';
 
 exports.handler = async (event, context) => {
     const lat = event.queryStringParameters.lat;
