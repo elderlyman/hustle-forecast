@@ -3,7 +3,7 @@ import axios from 'axios';
 
 //get client id from .
 //note that this had to also be manually changed in netlify env variable settings because it was not updating automatically
-const client_id = process.env.REACT_APP_SEATGEEK_CLIENT_ID || 'default_seatgeek_client_id';
+// const client_id = process.env.REACT_APP_SEATGEEK_CLIENT_ID || 'default_seatgeek_client_id';
 
 //log client id anywhere
 console.log('client_id: ', client_id);
@@ -28,7 +28,7 @@ exports.handler = async (event, context) => {
                 params: {
                     'venue.city': eventLocation,
                     'datetime_local.lte': daysFromNow,
-                    client_id: client_id,
+                    client_id: process.env.REACT_APP_SEATGEEK_CLIENT_ID,
                     per_page: 1000,
                 },
             }
