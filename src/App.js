@@ -15,7 +15,6 @@ function App() {
             overflow: 'auto'
           }}
         />
-        TEST CHANGE
         <a
           className="App-link"
           href="https://reactjs.org"
