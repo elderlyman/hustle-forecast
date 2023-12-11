@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hustle-forecast/static/css/main.5d1a9c57.css",
-    "main.js": "/hustle-forecast/static/js/main.c64b9b2f.js",
+    "main.js": "/hustle-forecast/static/js/main.5935b162.js",
     "static/js/787.1e2ab9f0.chunk.js": "/hustle-forecast/static/js/787.1e2ab9f0.chunk.js",
     "index.html": "/hustle-forecast/index.html",
     "main.5d1a9c57.css.map": "/hustle-forecast/static/css/main.5d1a9c57.css.map",
-    "main.c64b9b2f.js.map": "/hustle-forecast/static/js/main.c64b9b2f.js.map",
+    "main.5935b162.js.map": "/hustle-forecast/static/js/main.5935b162.js.map",
     "787.1e2ab9f0.chunk.js.map": "/hustle-forecast/static/js/787.1e2ab9f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d1a9c57.css",
-    "static/js/main.c64b9b2f.js"
+    "static/js/main.5935b162.js"
   ]
 }
