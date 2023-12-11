@@ -2,14 +2,16 @@
 
 exports.handler = async (event) => {
   try {
-    const subject = event.queryStringParameters.name || 'World'
+    // const subject = event.queryStringParameters.name || 'World'
+    //get message from .env file
+    const message = process.env.REACT_APP_TEST_FUNCTION_MESSAGE || 'no special message';
     return {
       statusCode: 200,
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ message: `Hello ${subject}` }),
+      body: JSON.stringify({ message: `Hello ${message}` }),
       // // more keys you can return:
       // headers: { "headerName": "headerValue", ... },
       // isBase64Encoded: true,
